@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  max-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: linear-gradient(to bottom, rgb(185, 198, 199), transparent),
+    url(./images/pattern-background-desktop.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 450px;
+  height: 95%;
+  padding: 0;
+  background-color: white;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgb(16, 15, 31);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.image-container {
+  width: 450px;
+  height: 250px;
+  background-image: url(./images/illustration-hero.svg);
+  background-repeat: no-repeat;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+h1 {
+  padding: 13px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 27px;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  line-height: 25px;
+}
+.attribution {
+  display: none;
+}
+
+section {
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  padding: 10px 60px;
+}
+
+.container {
+  width: 320px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  align-content: center;
+  text-align: center;
+  justify-content: space-between;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.container svg {
+  margin-right: -60px;
+}
+
+h2 {
+  font-size: 17px;
+  letter-spacing: -1px;
+  font-weight: 900;
+}
+
+span {
+  font-weight: 500;
+  font-size: 14.5px;
+  color: hsl(224, 23%, 55%);
+  letter-spacing: 0.5px;
+}
+
+.container,
+a {
+  align-content: center;
+  font-weight: 900;
+  font-size: 13px;
+}
+
+button {
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  width: 100%;
+  margin: 20px auto;
+  font-weight: 800;
+  box-shadow: 0 10px 25px rgb(87, 83, 83);
+  margin-bottom: 35px;
+}
+h3 {
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+}
